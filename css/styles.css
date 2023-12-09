@@ -15,9 +15,14 @@ color: black;
 background-color: #FFFFFF; */
 
 /* Reset styles */
+h1,h2,h3,h4,h5,p,h6 {
+margin: 0;
+}
 ul,
 ol {
 list-style-type: none;
+margin: 0;
+padding: 0;
 }
 a {
 color: currentColor;
@@ -44,6 +49,14 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 /* Common styles */
+.container {
+    width: 1158px;
+    padding-left: 15;
+    padding-right: 15;
+    margin-left: auto;
+    margin-right: auto;
+
+}
 
 /*--header */
 .logo {
