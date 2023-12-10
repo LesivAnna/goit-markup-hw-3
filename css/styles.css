@@ -14,6 +14,11 @@ font-style: normal;
 color: black;
 background-color: #FFFFFF; */
 
+/* Default properties */
+
+
+
+
 /* Reset styles */
 h1,h2,h3,h4,h5,p,h6 {
 margin: 0;
@@ -66,10 +71,9 @@ outline: -2px;
 
 /*--header */
 .header {
-padding: 100px;
-
 }
 .header-container {
+display: flex;
 
 }
 
@@ -83,20 +87,32 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-margin-left: 156px;
+display: flex;
+margin-right: auto;
+align-items: center;
 }
 
 .logo-dark {
 color: #2E2F42;
+margin-right: 76px;
 }
 
 .header-list {
+display: flex;
+align-items: center;
+padding-top: 24px;
+padding-bottom: 24px;
 } 
 .header-items {
 font-size:16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
+margin-right: 40px;
+}
+.header-items:last-child {
+margin-right: 0;
+
 }
 
 .header-link {
@@ -112,17 +128,24 @@ details {
 font-style: normal;
 }
 .header-address {
+display: flex;
+margin-right: 40px;
+align-items: center;
  }
 .header-address-items {
+padding-top: 24px;
+padding-bottom: 24px;
 }
 .header-details {
 color: #434455;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing : 0.02em;
+ margin-right: 40px;
 }
-
-
+.header-details :last-child {
+margin-right: 0;
+}
 .header-details:hover,
 .header-details:focus {
 color: #404BBF;
@@ -130,8 +153,9 @@ color: #404BBF;
 /* main */
 /* section-hero */
 /* region */
- .hero {
+.hero {
 background-color: #2E2F42;
+height: 600px;
 } 
 .div-hero {
 }
@@ -143,9 +167,9 @@ font-size: 56px;
 font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
-margin-bottom: 292px;
-margin-left: auto;
+width: 496px;
 margin-right: auto;
+margin-left: auto;
 }
  button {
 color: #FFFFFF;
