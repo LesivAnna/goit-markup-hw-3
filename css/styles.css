@@ -223,20 +223,24 @@ background:#404BBF;
 background: #FFF;
 padding: 120px 0;
 }
-.service-list {
+.service-list  {
 display: flex;
 gap: 24px;
-flex-direction: column;
-align-items: flex-start;
+}
+.list {
 }
 .servis-items {
-width: calc((100% - 72px) / 4);
+flex-direction: column;
+align-items: flex-start;
+
+
 }
 .service-caption {
-margin-bottom: 8px;
+padding-bottom: 8px;
+
 }
 .service-desc {
-  padding-bottom: 32px;
+
 }
  /* endregion */
 /* section-team */
@@ -249,7 +253,7 @@ width: 232px;
 gap: 8px;
 
 }
-.team-wrapper {
+.team-list {
 display: flex;
 gap: 24px;
 justify-content: center;
