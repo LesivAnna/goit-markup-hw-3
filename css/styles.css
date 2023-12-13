@@ -92,6 +92,7 @@ display: flex;
 }
 
 .logo {
+margin-right: 76px;
 
 }
 .header-nav {
@@ -115,15 +116,14 @@ margin-right: 76px;
 .header-list {
 display: flex;
 align-items: center;
-padding-top: 24px;
-padding-bottom: 24px;
+padding: 24px 0;
+gap: 40px;
 } 
 .header-items {
 font-size:16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
-margin-right: 40px;
 }
 .header-items:last-child {
 margin-right: 0;
@@ -176,7 +176,7 @@ background-color: #2E2F42;
 } 
 
 .hero-container {
-padding-top: 188px 0;
+padding: 188px 0;
 }
  .hero-title {
 background-color:#2E2F42;
@@ -222,20 +222,18 @@ background:#404BBF;
 /* section-service */
 .service {
 background: #FFF;
-padding-top : 120px 0;
+padding: 120px 0;
 }
 .service-list {
 display: flex;
 gap: 24px;
 justify-content: center;
-
 }
 .servis-items {
-width: 264px;
-  
+ width: calc((100% - 72px) / 4);
 }
 .service-caption {
-padding-bottom: 8px;
+margin-bottom: 8px;
 }
 .service-desc {
 width: 264px;
@@ -244,7 +242,7 @@ width: 264px;
 /* section-team */
 .team {
 background-color: #F4F4FD;
-padding-top: 120px;
+padding: 120px 0;
 }
 .team-container {
 display: flex;
@@ -253,31 +251,29 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 gap: 8px;
-
+padding: 32px 0;
 }
 .team-wrapper {
 display: flex;
 gap: 24px;
-padding-bottom: 120px;
 }
 .team-items {
 border-radius: 0px 0px 4px 4px;
 background: #FFF;
 width: 264px;
-
 }
+
 .team-pic {
 }
 .team-title {
-  text-align: center;
-  padding-bottom: 8px;
+margin-bottom: 8px;
+
 }
 .team-descr {
-  text-align: center;
+text-align: center;
 }
 /* section-port */
 .port {
-padding-bottom: 120px;
 }
 .port-container {
 display: flex;
@@ -312,9 +308,9 @@ background: #FFF;
 /* footer*/
 .foot {
  background-color: #2E2F42;
+ padding: 100px 0;
 }
 .foot-container {
-padding: 100px 0;
 }
 .logo-ligh {
 color: #F4F4FD;
@@ -324,6 +320,7 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+display: inline-block;
 }
 .foot-logo {
 color: #4D5AE5;
@@ -334,7 +331,8 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 margin-left: 156px;
-margin-bottom: 16px
+margin-bottom: 16px;
+display: inline-block;
 }
 .foot-caption {
 color: #F4F4FD;
@@ -342,5 +340,4 @@ width: 264px;
 padding-bottom: 100px;
 margin-right: 1020px;
 margin-left: 156px;
-display: inline-block;
 }
