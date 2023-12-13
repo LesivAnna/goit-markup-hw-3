@@ -62,16 +62,16 @@ letter-spacing: 0.02em;
 /* Common styles */
 
 .visually-hidden {
-  clip: rect(0 0 0 0);
-  clip-path: inset(100px);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  margin: -1px; 
-  border: 0;
-  padding: 0;
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
 }
 
 .container {
@@ -232,11 +232,10 @@ gap: 24px;
 .servis-items {
 flex-direction: column;
 align-items: flex-start;
-
-
+ flex-basis: calc((100% - 72px) / 4);
 }
 .service-caption {
-padding-bottom: 8px;
+margin-bottom: 8px;
 
 }
 .service-desc {
@@ -251,29 +250,29 @@ padding: 120px 0;
 .team-container {
 width: 232px;
 gap: 8px;
-
+}
+.list {
+padding: 32px 0;
+align-items: center; 
 }
 .team-list {
 display: flex;
 gap: 24px;
 justify-content: center;
-align-items: center;
-padding: 32px 0;
 }
 .team-items {
 border-radius: 0px 0px 4px 4px;
 background: #FFF;
 width: 264px;
 padding-bottom: 32px;
+flex-basis: calc((100% - 72px) / 4);
 }
-
 .team-pic {
-  padding-bottom: 32px;
-
+padding-bottom: 32px;
+margin-bottom: 8px;
 }
 .team-title {
-margin-bottom: 8px;
-text-align: center
+text-align: center;
 }
 .team-descr {
 text-align: center;
