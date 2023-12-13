@@ -196,7 +196,9 @@ border-radius: 4px;
 align-items: flex-start;
 gap: 10px;
 background: #4D5AE5;
-margin-left: 364px;
+margin-right: auto;
+margin-left: auto;
+display: block;
  }
 
  button {
