@@ -124,7 +124,6 @@ font-size:16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
-margin-right: 40px
 }
 .header-items:last-child {
 margin-right: 0;
@@ -150,8 +149,8 @@ align-items: center;
 
  }
 .header-address-items {
-padding-top: 24px;
-padding-bottom: 24px;
+padding: 24px 0;
+
 }
 .header-details {
 color: #434455;
