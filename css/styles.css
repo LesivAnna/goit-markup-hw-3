@@ -75,7 +75,7 @@ letter-spacing: 0.02em;
 }
 
 .container {
-width: 1158px;
+max-width: 1158px;
 padding-left: 15px;
 padding-right: 15px;
 margin-left: auto;
@@ -223,28 +223,17 @@ background:#404BBF;
 background: #FFF;
 padding: 120px 0;
 }
-.service-container {
-width: 264px;
-justify-content: center;
-align-items: center;
-
-
-}
 .service-list {
 display: flex;
 gap: 24px;
-justify-content: center;
-align-items: center;
-
-
+flex-direction: column;
+align-items: flex-start;
 }
 .servis-items {
 width: calc((100% - 72px) / 4);
-
 }
 .service-caption {
 margin-bottom: 8px;
-
 }
 .service-desc {
   padding-bottom: 32px;
