@@ -60,6 +60,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 /* Common styles */
+
 .visually-hidden {
   clip: rect(0 0 0 0);
   clip-path: inset(100px);
@@ -75,15 +76,17 @@ letter-spacing: 0.02em;
 
 .container {
 width: 1158px;
-padding-left: 15;
-padding-right: 15;
+padding-left: 15px;
+padding-right: 15px;
 margin-left: auto;
 margin-right: auto;
 }
 
 /*--header */
 .header {
+  border-bottom: 1px solid #e7e9fc
 }
+
 .header-container {
 display: flex;
 }
@@ -173,10 +176,7 @@ background-color: #2E2F42;
 } 
 
 .hero-container {
-padding-top: 188px;
-padding-bottom: 188px;
-
-
+padding-top: 188px 0;
 }
  .hero-title {
 background-color:#2E2F42;
@@ -186,13 +186,16 @@ font-size: 56px;
 font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
-width: 496px;
+max-width: 496px;
 padding-bottom: 48px;
 margin-right: auto;
 margin-left: auto;
  }
  .hero-button {
 border-radius: 4px;
+min-width: 169px;
+height: 56px;
+border: none;
 align-items: flex-start;
 gap: 10px;
 background: #4D5AE5;
@@ -219,9 +222,7 @@ background:#404BBF;
 /* section-service */
 .service {
 background: #FFF;
-padding-top : 120px;
-padding-bottom: 160px;
-
+padding-top : 120px 0;
 }
 .service-list {
 display: flex;
@@ -268,8 +269,11 @@ width: 264px;
 .team-pic {
 }
 .team-title {
+  text-align: center;
+  padding-bottom: 8px;
 }
 .team-descr {
+  text-align: center;
 }
 /* section-port */
 .port {
@@ -300,6 +304,7 @@ background: #FFF;
  .port-pic {
 }
 .port-caption {
+  margin-bottom: 8px;
 }
 .port-desc {  
 }
@@ -309,7 +314,7 @@ background: #FFF;
  background-color: #2E2F42;
 }
 .foot-container {
-padding-top: 101.5px;
+padding: 100px 0;
 }
 .logo-ligh {
 color: #F4F4FD;
@@ -329,12 +334,13 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 margin-left: 156px;
+margin-bottom: 16px
 }
 .foot-caption {
 color: #F4F4FD;
 width: 264px;
-padding-top: 17.5px;
 padding-bottom: 100px;
 margin-right: 1020px;
 margin-left: 156px;
+display: inline-block;
 }
